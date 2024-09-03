@@ -13,7 +13,6 @@ export function Sidebar() {
                         <Link
                             href="#"
                             className="flex h-9 w-9 shrink-0 items-center justify-center bg-primary text-primary-foreground rounded-full"
-
                         >
                             <Package className="h-4 w-4" />
 
@@ -67,7 +66,6 @@ export function Sidebar() {
                                 <Link
                                     href="#"
                                     className="flex h-9 w-9 shrink-0 items-center justify-center rouned-lg text-muted-foreground trasition-colors hover:text-foreground"
-
                                 >
                                     <LineChart className="h-5 w-5" />
 

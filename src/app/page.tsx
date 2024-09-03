@@ -8,10 +8,9 @@ export default function Home() {
 
   return (
     <main className="sm:ml-14 p-4 min-h-screen">
-      <h1 className="text-6xl mb-4 font-extrabold bg-gradient-to-r from-[#162F61] via-[#1FA8E0] to-[#137BC0] text-transparent bg-clip-text mb-8 drop-shadow-lg">
+      <h1 className="text-6xl mb-4 font-extrabold bg-gradient-to-r from-[#162F61] via-[#1FA8E0] to-[#137BC0] text-transparent bg-clip-text drop-shadow-lg">
         Seja Bem Vindo(a) à South
       </h1>
-
 
       <section className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
         <Equipe />
@@ -124,7 +123,6 @@ export default function Home() {
           </CardContent>
         </Card>
 
-
         <Card className="shadow-xl rounded-lg overflow-hidden border border-gray-200">
           <CardHeader className="bg-gradient-to-r from-[#137BC0] to-[#1FA8E0] p-4">
             <div className="flex items-center justify-between">
@@ -182,7 +180,6 @@ export default function Home() {
             </div>
           </CardContent>
         </Card>
-
 
       </section>
 
